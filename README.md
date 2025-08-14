@@ -2,9 +2,12 @@
 
 Este proyecto es un dashboard interactivo construido con **Dash y Plotly** que permite visualizar y comparar indicadores clave de desarrollo económico y social para los países de Latinoamérica. Los datos son obtenidos en tiempo real desde la API pública del **Banco Mundial**, garantizando que la información esté siempre actualizada.
 
-**[Dashboard](https://visualizador-de-desarrollo-de.onrender.com/)**
+### **[Dashboard](https://visualizador-de-desarrollo-de.onrender.com/)**
 
 <img width="764" height="385" alt="image" src="https://github.com/user-attachments/assets/a3b96355-b1fc-4e73-8ab8-11c349f2c8b6" />
+
+---
+
 
 
 La aplicación ofrece una interfaz de usuario moderna y oscura, diseñada para ser intuitiva y permitir a los usuarios explorar tendencias, comparar el rendimiento entre países y analizar métricas específicas a través de una variedad de gráficos dinámicos.
