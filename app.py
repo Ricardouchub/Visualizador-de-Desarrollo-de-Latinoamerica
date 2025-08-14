@@ -106,7 +106,7 @@ brand = dbc.Navbar(
             # CAMBIO: Título y subtítulo actualizados
             dbc.Col(html.Div([
                 html.H5('Visualizador de Desarrollo de Latinoamérica', className='mb-0 text-white'),
-                html.Small('Datos de World Bank API', className='text-muted')
+                html.Small('Datos del Banco Mundial API', className='text-muted')
             ])),
         ], align='center', className='g-2'),
         # CAMBIO: Botón de descarga eliminado de la barra de navegación
