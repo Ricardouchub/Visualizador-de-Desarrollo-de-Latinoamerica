@@ -10,7 +10,7 @@ import requests
 from functools import lru_cache
 
 # ============================
-# 1) CONFIGURACIÓN & DATOS
+# 1) CONFIGURACIÓN
 # ============================
 
 app = dash.Dash(__name__,
@@ -103,13 +103,11 @@ brand = dbc.Navbar(
     dbc.Container([
         dbc.Row([
             dbc.Col(html.I(className='bi bi-bar-chart-line-fill fs-3 me-2')),
-            # CAMBIO: Título y subtítulo actualizados
             dbc.Col(html.Div([
                 html.H5('Visualizador de Desarrollo de Latinoamérica', className='mb-0 text-white'),
                 html.Small('Datos del Banco Mundial API', className='text-muted')
             ])),
         ], align='center', className='g-2'),
-        # CAMBIO: Botón de descarga eliminado de la barra de navegación
     ], fluid=True),
     color='dark', dark=True, className='shadow-sm sticky-top'
 )
@@ -156,7 +154,6 @@ footer_layout = html.Div([
 
 sidebar = dbc.Card(
     dbc.CardBody([
-        # CAMBIO: Instrucciones añadidas
         html.Div([
             html.P("Utilice los filtros para explorar los datos.", className="small"),
             html.P("Nota: Algunos países pueden no tener datos para todos los años o indicadores.", className="small text-muted")
@@ -180,7 +177,7 @@ sidebar = dbc.Card(
                             step=1, allowCross=False, marks=None, tooltip={'placement': 'bottom', 'always_visible': True})
         ], className='mb-3'),
         html.Div([
-            html.Label('Selecciona un País para ver KPIs', className='form-label fw-semibold'),
+            html.Label('KPIs: selecciona un país para ver indicadores', className='form-label fw-semibold'),
             dcc.Dropdown(id='dd-kpi-pais', options=[{'label': k, 'value': k} for k in PAISES.keys()], value='Chile', clearable=False)
         ]),
         
@@ -208,7 +205,6 @@ map_chart = dbc.Card(dbc.CardBody([
 app.layout = dbc.Container([
     brand,
     dbc.Row([
-        # CAMBIO: Ancho de la barra lateral reducido
         dbc.Col(sidebar, md=3, lg=2, className='mb-3'),
         dbc.Col([
             dbc.Row([dbc.Col(line_chart, lg=12, className='mb-3')]),
@@ -216,12 +212,11 @@ app.layout = dbc.Container([
                 dbc.Col(bar_chart, lg=6, className='mb-3'),
                 dbc.Col(map_chart, lg=6, className='mb-3'),
             ]),
-            # CAMBIO: Botón de descarga movido al final del contenido principal
             dbc.Row([
                 dbc.Col(
                     [
                         dbc.Button("Descargar CSV", id="btn-descargar", n_clicks=0, color="secondary"),
-                        dcc.Download(id='descarga-datos') # El componente Download puede estar aquí
+                        dcc.Download(id='descarga-datos') 
                     ], className="d-flex justify-content-end mt-3"
                 )
             ])
