@@ -21,7 +21,7 @@ La aplicación ofrece una interfaz de usuario moderna y oscura, diseñada para s
     * **Gráfico de Líneas:** Para analizar la evolución de un indicador a lo largo del tiempo.
     * **Gráfico de Barras:** Para comparar el último valor disponible entre los países seleccionados.
     * **Mapa Coroplético:** Para una vista geográfica del indicador en la región.
-* **KPIs Detallados:** Tarjetas con métricas clave como el último valor, la variación anual, la tasa de crecimiento anual compuesta (CAGR) y el ranking regional para un país específico.
+* **KPIs:** Métricas clave como el último valor, la variación anual, la tasa de crecimiento anual y el ranking regional para un país específico.
 * **Diseño Moderno y Responsivo:** Interfaz oscura y profesional construida con Dash Bootstrap Components.
 * **Descarga de Datos:** Funcionalidad para descargar los datos del indicador seleccionado en formato CSV.
 
