@@ -1,4 +1,4 @@
-# Visualizador de Desarrollo de Latinoamérica
+# Visualizador Web del Desarrollo de Latinoamérica
 
 Este proyecto es un dashboard interactivo construido con **Dash y Plotly** que permite visualizar y comparar indicadores clave de desarrollo económico y social para los países de Latinoamérica. Los datos son obtenidos en tiempo real desde la API pública del **Banco Mundial**, garantizando que la información esté siempre actualizada.
 
