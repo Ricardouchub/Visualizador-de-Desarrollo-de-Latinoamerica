@@ -1,16 +1,18 @@
-# Visualizador de Desarrollo de Latinoamérica
-
-##  Descripción
+# Visualizador Web del Desarrollo de Latinoamérica
 
 Este proyecto es un dashboard interactivo construido con **Dash y Plotly** que permite visualizar y comparar indicadores clave de desarrollo económico y social para los países de Latinoamérica. Los datos son obtenidos en tiempo real desde la API pública del **Banco Mundial**, garantizando que la información esté siempre actualizada.
+
+**[Dashboard](https://visualizador-de-desarrollo-de.onrender.com/)**
+
+<img width="764" height="385" alt="image" src="https://github.com/user-attachments/assets/a3b96355-b1fc-4e73-8ab8-11c349f2c8b6" />
+
 
 La aplicación ofrece una interfaz de usuario moderna y oscura, diseñada para ser intuitiva y permitir a los usuarios explorar tendencias, comparar el rendimiento entre países y analizar métricas específicas a través de una variedad de gráficos dinámicos.
 
 ##  Características
 
 * **Datos en Tiempo Real:** Conexión directa a la API del Banco Mundial para obtener los datos más recientes.
-* **Dashboard Interactivo:** Filtros dinámicos por indicador, múltiples países y rango de años.
-* **Visualizaciones Múltiples:**
+* **Dashboard Interactivo:** Filtros dinámicos por indicador, múltiples países y rango de años con visualizaciones:
     * **Gráfico de Líneas:** Para analizar la evolución de un indicador a lo largo del tiempo.
     * **Gráfico de Barras:** Para comparar el último valor disponible entre los países seleccionados.
     * **Mapa Coroplético:** Para una vista geográfica del indicador en la región.
@@ -20,28 +22,18 @@ La aplicación ofrece una interfaz de usuario moderna y oscura, diseñada para s
 
 ## Despliegue 
 
-Este proyecto está configurado para un despliegue sencillo en **Render**.
-
-1.  **Sube tu proyecto a GitHub:** Asegúrate de que tu repositorio contenga los archivos `app.py`, `requirements.txt` y la carpeta `assets`.
-2.  **Crea una cuenta en Render:** Ve a [render.com](https://render.com) y regístrate.
-3.  **Nuevo Servicio Web:** En tu dashboard de Render, crea un **"New Web Service"** y conéctalo a tu repositorio de GitHub.
-4.  **Configuración:**
-    * **Environment:** `Python 3`
-    * **Build Command:** `pip install -r requirements.txt`
-    * **Start Command:** `gunicorn app:server`
-5.  **¡Desplegar!** Haz clic en "Create Web Service". Render se encargará de instalar las dependencias y poner tu aplicación en línea.
+Esta aplicación está desplegada y disponible públicamente a través de Render, una plataforma en la nube para construir y ejecutar aplicaciones web. El despliegue se realiza automáticamente a partir del código fuente en GitHub, utilizando un servidor Gunicorn para garantizar un rendimiento robusto y escalable.
 
 ## Herramientas
 
 * **Backend y Visualización:**
-    * [Dash](https://dash.plotly.com/): Framework principal para construir la aplicación web.
-    * [Plotly Express](https://plotly.com/python/plotly-express/): Para la creación de gráficos interactivos.
-    * [Pandas](https://pandas.pydata.org/): Para la manipulación y procesamiento de datos.
-    * [Requests](https://requests.readthedocs.io/en/latest/): Para realizar las peticiones a la API del Banco Mundial.
+    * Dash: Framework principal para construir la aplicación web.
+    * Plotly Express: Para la creación de gráficos interactivos.
+    * Requests: Para realizar las peticiones a la API del Banco Mundial.
 * **Frontend y Diseño:**
-    * [Dash Bootstrap Components](https://dash-bootstrap-components.opensource.faculty.ai/): Para un diseño responsivo y componentes modernos.
-    * [Bootstrap Icons](https://icons.getbootstrap.com/): Para los íconos utilizados en la interfaz.
+    * Dash Bootstrap Components: Para un diseño responsivo y componentes modernos.
+    * Bootstrap Icons: Para los íconos utilizados en la interfaz.
 
 ## Autor
 
-Este proyecto fue desarrollado por **Ricardo Urdaneta**.
+**Ricardo Urdaneta**.
