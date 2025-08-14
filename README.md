@@ -41,4 +41,6 @@ Esta aplicación está desplegada y disponible públicamente a través de Render
 
 ## Autor
 
-**Ricardo Urdaneta**.
+**Ricardo Urdaneta**
+
+**[Linkedin](https://www.linkedin.com/in/ricardourdanetacastro)**
