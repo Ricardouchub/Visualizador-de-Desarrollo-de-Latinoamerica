@@ -18,7 +18,20 @@ La aplicación ofrece una interfaz de usuario moderna y oscura, diseñada para s
 * **Diseño Moderno y Responsivo:** Interfaz oscura y profesional construida con Dash Bootstrap Components.
 * **Descarga de Datos:** Funcionalidad para descargar los datos del indicador seleccionado en formato CSV.
 
-##  Herramientas
+## Despliegue 
+
+Este proyecto está configurado para un despliegue sencillo en **Render**.
+
+1.  **Sube tu proyecto a GitHub:** Asegúrate de que tu repositorio contenga los archivos `app.py`, `requirements.txt` y la carpeta `assets`.
+2.  **Crea una cuenta en Render:** Ve a [render.com](https://render.com) y regístrate.
+3.  **Nuevo Servicio Web:** En tu dashboard de Render, crea un **"New Web Service"** y conéctalo a tu repositorio de GitHub.
+4.  **Configuración:**
+    * **Environment:** `Python 3`
+    * **Build Command:** `pip install -r requirements.txt`
+    * **Start Command:** `gunicorn app:server`
+5.  **¡Desplegar!** Haz clic en "Create Web Service". Render se encargará de instalar las dependencias y poner tu aplicación en línea.
+
+## Herramientas
 
 * **Backend y Visualización:**
     * [Dash](https://dash.plotly.com/): Framework principal para construir la aplicación web.
@@ -30,4 +43,5 @@ La aplicación ofrece una interfaz de usuario moderna y oscura, diseñada para s
     * [Bootstrap Icons](https://icons.getbootstrap.com/): Para los íconos utilizados en la interfaz.
 
 ## Autor
-**Ricardo Urdaneta**
+
+Este proyecto fue desarrollado por **Ricardo Urdaneta**.
