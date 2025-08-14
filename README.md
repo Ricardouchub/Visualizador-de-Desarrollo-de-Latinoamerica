@@ -12,8 +12,7 @@ La aplicación ofrece una interfaz de usuario moderna y oscura, diseñada para s
 ##  Características
 
 * **Datos en Tiempo Real:** Conexión directa a la API del Banco Mundial para obtener los datos más recientes.
-* **Dashboard Interactivo:** Filtros dinámicos por indicador, múltiples países y rango de años.
-* **Visualizaciones Múltiples:**
+* **Dashboard Interactivo:** Filtros dinámicos por indicador, múltiples países y rango de años con visualizaciones:
     * **Gráfico de Líneas:** Para analizar la evolución de un indicador a lo largo del tiempo.
     * **Gráfico de Barras:** Para comparar el último valor disponible entre los países seleccionados.
     * **Mapa Coroplético:** Para una vista geográfica del indicador en la región.
