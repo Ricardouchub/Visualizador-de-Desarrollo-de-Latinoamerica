@@ -38,7 +38,7 @@ INDICADORES = {
 }
 
 DEFAULT_INDICATOR = 'PIB per cápita (US$)'
-DEFAULT_COUNTRIES = ['Chile']
+DEFAULT_COUNTRIES = ['Chile','Brasil','Argentina']
 ANIO_INICIO, ANIO_FIN = 2000, 2024
 
 @lru_cache(maxsize=64)
