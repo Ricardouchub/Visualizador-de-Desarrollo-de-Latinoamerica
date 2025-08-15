@@ -6,7 +6,8 @@ Los datos son obtenidos en tiempo real desde la **API del Banco Mundial**, garan
 
 ### **[Dashboard](https://visualizador-de-desarrollo-de.onrender.com/)**
 
-<img width="764" height="385" alt="image" src="https://github.com/user-attachments/assets/a3b96355-b1fc-4e73-8ab8-11c349f2c8b6" />
+<img width="2545" height="1285" alt="image" src="https://github.com/user-attachments/assets/80410f9b-5832-42b0-a1a0-9b32a1236ab7" />
+
 
 ---
 
