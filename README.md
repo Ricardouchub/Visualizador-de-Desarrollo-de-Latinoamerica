@@ -6,7 +6,7 @@
   <img src="https://img.shields.io/badge/GeoPandas-Geolocalización-2A7F62?style=flat-square&logo=geopandas&logoColor=white" alt="GeoPandas"/>
   <img src="https://img.shields.io/badge/Pandas-Análisis_de_Datos-150458?style=flat-square&logo=pandas&logoColor=white" alt="Pandas"/>
   <img src="https://img.shields.io/badge/Plotly-Visualización_Interactiva-3F4F75?style=flat-square&logo=plotly&logoColor=white" alt="Plotly"/>
-  <img src="https://img.shields.io/badge/Dash-Dashboard_Analítico-119DFF?style=flat-square&logo=dash&logoColor=white" alt="Dash"/>
+  <img src="https://img.shields.io/badge/Dash-Dashboard-119DFF?style=flat-square&logo=dash&logoColor=white" alt="Dash"/>
 </p>
 
 
