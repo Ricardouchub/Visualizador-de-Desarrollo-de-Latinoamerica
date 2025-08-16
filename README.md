@@ -1,5 +1,16 @@
 # Visualizador Web del Desarrollo de Latinoamérica
 
+<p align="left">
+  <img src="https://img.shields.io/badge/Proyecto_Completado-%E2%9C%94-2ECC71?style=flat-square&logo=checkmarx&logoColor=white" alt="Proyecto Completado"/>
+  <img src="https://img.shields.io/badge/Python-3.9%2B-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/GeoPandas-Geolocalización-2A7F62?style=flat-square&logo=geopandas&logoColor=white" alt="GeoPandas"/>
+  <img src="https://img.shields.io/badge/Pandas-Análisis_de_Datos-150458?style=flat-square&logo=pandas&logoColor=white" alt="Pandas"/>
+  <img src="https://img.shields.io/badge/Plotly-Visualización_Interactiva-3F4F75?style=flat-square&logo=plotly&logoColor=white" alt="Plotly"/>
+  <img src="https://img.shields.io/badge/Dash-Dashboard_Analítico-119DFF?style=flat-square&logo=dash&logoColor=white" alt="Dash"/>
+</p>
+
+
+
 Este proyecto es un dashboard interactivo construido con **Dash y Plotly** que permite visualizar y comparar indicadores clave de desarrollo económico y social para los países de Latinoamérica. 
 
 Los datos son obtenidos en tiempo real desde la **API del Banco Mundial**, garantizando que la información esté siempre actualizada.
