@@ -21,14 +21,6 @@ Los datos son obtenidos en tiempo real desde la **API del Banco Mundial**, garan
   </a>
 </p>
 
-
-<img width="455" height="502" alt="image" src="https://github.com/user-attachments/assets/3f1f0a65-4ffd-4f69-8ddc-105466efb5c7" />
-
-
-<img width="2545" height="1285" alt="image" src="https://github.com/user-attachments/assets/80410f9b-5832-42b0-a1a0-9b32a1236ab7" />
-
-
-
 ---
 
 
