@@ -15,9 +15,18 @@ Este proyecto es un dashboard interactivo construido con **Dash y Plotly** que p
 
 Los datos son obtenidos en tiempo real desde la **API del Banco Mundial**, garantizando que la información esté siempre actualizada.
 
-### **[Dashboard](https://visualizador-de-desarrollo-de.onrender.com/)**
+<p align="center">
+  <a href="https://visualizador-de-desarrollo-de.onrender.com" target="_blank" rel="noopener noreferrer">
+    <img width="455" height="502" alt="image" src="https://github.com/user-attachments/assets/3f1f0a65-4ffd-4f69-8ddc-105466efb5c7" />
+  </a>
+</p>
+
+
+<img width="455" height="502" alt="image" src="https://github.com/user-attachments/assets/3f1f0a65-4ffd-4f69-8ddc-105466efb5c7" />
+
 
 <img width="2545" height="1285" alt="image" src="https://github.com/user-attachments/assets/80410f9b-5832-42b0-a1a0-9b32a1236ab7" />
+
 
 
 ---
@@ -37,9 +46,13 @@ La aplicación ofrece una interfaz de usuario moderna y oscura, diseñada para s
 * **Diseño Moderno y Responsivo:** Interfaz oscura y profesional construida con Dash Bootstrap Components.
 * **Descarga de Datos:** Funcionalidad para descargar los datos del indicador seleccionado en formato CSV.
 
+---
+
 ## Despliegue 
 
 Esta aplicación está desplegada y disponible públicamente a través de Render, una plataforma en la nube para construir y ejecutar aplicaciones web. El despliegue se realiza automáticamente a partir del código fuente en GitHub, utilizando un servidor Gunicorn para garantizar un rendimiento robusto y escalable.
+
+---
 
 ## Herramientas
 
@@ -50,6 +63,14 @@ Esta aplicación está desplegada y disponible públicamente a través de Render
 * **Frontend y Diseño:**
     * Dash Bootstrap Components: Para un diseño responsivo y componentes modernos.
     * Bootstrap Icons: Para los íconos utilizados en la interfaz.
+
+---
+
+## Visualizaciones
+
+<img width="2545" height="1285" alt="image" src="https://github.com/user-attachments/assets/80410f9b-5832-42b0-a1a0-9b32a1236ab7" />
+
+---
 
 ## Autor
 
