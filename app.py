@@ -10,7 +10,7 @@ import requests
 from functools import lru_cache
 
 # ============================
-# 1) CONFIGURACIÓN
+# CONFIGURACIÓN
 # ============================
 
 app = dash.Dash(__name__,
@@ -97,7 +97,7 @@ def formato_valor(nombre_ind, v):
     return f"{v:,.2f}".replace(',', 'X').replace('.', ',').replace('X', '.')
 
 # ============================
-# 2) LAYOUT
+# LAYOUT
 # ============================
 brand = dbc.Navbar(
     dbc.Container([
@@ -225,7 +225,7 @@ app.layout = dbc.Container([
 ], fluid=True)
 
 # ============================
-# 3) CALLBACKS
+# CALLBACKS
 # ============================
 
 @app.callback(
@@ -351,7 +351,11 @@ def fig_mapa(indicador, rango):
     return fig
 
 # ============================
-# 4) MAIN
+# MAIN
 # ============================
 if __name__ == '__main__':
     app.run(debug=True)
+
+# ============================
+# Por: Ricardo Urdaneta
+# ============================
