@@ -1,13 +1,25 @@
 # Visualizador Web del Desarrollo de Latinoamérica
 
+<p align="left">
+  <img src="https://img.shields.io/badge/Proyecto_Completado-%E2%9C%94-2ECC71?style=flat-square&logo=checkmarx&logoColor=white" alt="Proyecto Completado"/>
+  <img src="https://img.shields.io/badge/Python-3.9%2B-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/GeoPandas-Geolocalización-2A7F62?style=flat-square&logo=geopandas&logoColor=white" alt="GeoPandas"/>
+  <img src="https://img.shields.io/badge/Pandas-Análisis_de_Datos-150458?style=flat-square&logo=pandas&logoColor=white" alt="Pandas"/>
+  <img src="https://img.shields.io/badge/Plotly-Visualización_Interactiva-3F4F75?style=flat-square&logo=plotly&logoColor=white" alt="Plotly"/>
+  <img src="https://img.shields.io/badge/Dash-Dashboard-119DFF?style=flat-square&logo=dash&logoColor=white" alt="Dash"/>
+</p>
+
+
+
 Este proyecto es un dashboard interactivo construido con **Dash y Plotly** que permite visualizar y comparar indicadores clave de desarrollo económico y social para los países de Latinoamérica. 
 
 Los datos son obtenidos en tiempo real desde la **API del Banco Mundial**, garantizando que la información esté siempre actualizada.
 
-### **[Dashboard](https://visualizador-de-desarrollo-de.onrender.com/)**
-
-<img width="2545" height="1285" alt="image" src="https://github.com/user-attachments/assets/80410f9b-5832-42b0-a1a0-9b32a1236ab7" />
-
+<p align="center">
+  <a href="https://visualizador-de-desarrollo-de.onrender.com" target="_blank" rel="noopener noreferrer">
+    <img width="455" height="502" alt="image" src="https://github.com/user-attachments/assets/3f1f0a65-4ffd-4f69-8ddc-105466efb5c7" />
+  </a>
+</p>
 
 ---
 
@@ -26,9 +38,13 @@ La aplicación ofrece una interfaz de usuario moderna y oscura, diseñada para s
 * **Diseño Moderno y Responsivo:** Interfaz oscura y profesional construida con Dash Bootstrap Components.
 * **Descarga de Datos:** Funcionalidad para descargar los datos del indicador seleccionado en formato CSV.
 
+---
+
 ## Despliegue 
 
 Esta aplicación está desplegada y disponible públicamente a través de Render, una plataforma en la nube para construir y ejecutar aplicaciones web. El despliegue se realiza automáticamente a partir del código fuente en GitHub, utilizando un servidor Gunicorn para garantizar un rendimiento robusto y escalable.
+
+---
 
 ## Herramientas
 
@@ -39,6 +55,14 @@ Esta aplicación está desplegada y disponible públicamente a través de Render
 * **Frontend y Diseño:**
     * Dash Bootstrap Components: Para un diseño responsivo y componentes modernos.
     * Bootstrap Icons: Para los íconos utilizados en la interfaz.
+
+---
+
+## Visualizaciones
+
+<img width="2545" height="1285" alt="image" src="https://github.com/user-attachments/assets/80410f9b-5832-42b0-a1a0-9b32a1236ab7" />
+
+---
 
 ## Autor
 
